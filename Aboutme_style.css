@@ -1,0 +1,37 @@
+body{
+    background-image: url(./bg2.jpg);
+    background-size: cover;
+    
+}
+
+p1{ 
+    /* text-align: left; */
+    font-size: 1.5vw; 
+    font-family: 'Poppins', sans-serif;
+    /* line-height: 3.3em; */
+    /* font-weight: bold; */
+    color: rgb(242, 245, 249);
+    padding:auto;
+    text-align: justify;}
+    
+.container{
+    margin: auto;
+    position: relative;
+    width:50%;
+    background-color: rgb(32, 87, 134);
+    padding: 2%;
+    margin-top: 10%;
+    animation-name: mona1 ;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+@keyframes mona1 {
+    from{
+        width: 40%;
+
+    }
+    to{width:50% ;
+
+    }
+}

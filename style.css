@@ -1,10 +1,12 @@
 body{
     /* background-color: rgb(14, 34, 54); */
     color: rgb(185, 214, 241);
-    background: url('./bg.jpg');
+    background: url('./bg.jpg') no-repeat;
     background-size: cover;
     /* width: 100vw; */
     /* height: 100vh; */
+    height: 100%;
+    background-attachment: fixed;
 }
 
 
@@ -85,12 +87,12 @@ img{
     }
     img{
         align-self: center;
-        width:85%;
-        margin:2%;
+        width:60%;
+        margin:auto;
     }
     .container{
         align-self: center;
-        width:85%;
-        margin:2%;
+        width:70%;
+        margin:auto;
     }
 }

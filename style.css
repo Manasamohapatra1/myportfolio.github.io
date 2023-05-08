@@ -125,17 +125,18 @@ img {
         align-self: center;
         width: 60%;
         margin: auto;
-        margin-top: 10%;
+        margin-top: 12%;
     }
 
     .container {
         align-self: center;
         width: 70%;
         margin: auto;
-        margin-top: 6%;
+        margin-top: 7%;
     }
     p1{
-        font-size:1.5vw ;
+        font-size:1.7vw ;
+        font-weight:lighter
     }
 
 }

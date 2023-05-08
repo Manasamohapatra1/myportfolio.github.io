@@ -81,7 +81,7 @@ img{
     margin-right: 10%;
 
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .flex-direction{
       flex-direction:column;
     }
